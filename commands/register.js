@@ -14,7 +14,7 @@ module.exports = {
         try {
             message.member.roles.add(`${ID_ROLE}`);
             message.member.setNickname(`${TAG} ${nickname}`);
-            private.send(`${message.author} **Accepted**, __Jangan Lupa Order Product Legends Store Ya!!!__`);
+            private.send(`${message.author} **Accepted**`);
         } catch(error) {
             console.error(error); 
         }
